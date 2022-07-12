@@ -45,7 +45,6 @@ spec:
       containers:
       - name: php-redis
         image: gcr.io/google_samples/gb-frontend:v3
-        hostPort: 8089
         env:
           - name: DEMO
             value: example.google.com
