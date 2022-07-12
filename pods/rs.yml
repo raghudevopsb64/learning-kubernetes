@@ -49,3 +49,16 @@ spec:
           - name: DEMO
             value: example.google.com
 
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: frontend-cip
+spec:
+  type: ClusterIP
+  selector:
+    tier: frontend
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 9376
