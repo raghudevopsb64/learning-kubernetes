@@ -47,5 +47,5 @@ spec:
         image: gcr.io/google_samples/gb-frontend:v3
         env:
           - name: DEMO
-            value: demo
+            value: google.com
 
