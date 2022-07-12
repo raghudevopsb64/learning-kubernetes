@@ -34,5 +34,5 @@ spec:
     - touch /tmp/healthy
     resources:
       requests:
-        memory: "4096Mi"
-        cpu: "2000m"
+        memory: "3276Mi"
+        cpu: "1600m"
