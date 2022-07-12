@@ -3,7 +3,6 @@ kind: Pod
 metadata:
   name: sample1
 spec:
-  hostPort: 8089
   containers:
     - name: nginx
       image: nginx
